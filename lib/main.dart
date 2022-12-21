@@ -12,8 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Berita',
-      theme: ThemeData(appBarTheme: AppBarTheme(elevation: 0)),
-      home: BeritaScreen(),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const BeritaScreen(),
     );
   }
 }
